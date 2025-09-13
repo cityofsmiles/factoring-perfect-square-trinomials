@@ -143,7 +143,7 @@ export default function App() {
         autoFocus
         type="text"
         className="input-answer"
-        placeholder="Type expanded form (e.g. x^2 - 9)"
+        placeholder="Type factored form, e.g. (x - 9)^2"
         value={answers[currentIndex] || ""}
         onChange={(e) => handleAnswer(e.target.value)}
       />
